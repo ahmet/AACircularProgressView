@@ -24,11 +24,11 @@ import QuartzCore
         didSet { setNeedsDisplay() }
     }
 
-    @IBInspectable var trackStrokeColor: UIColor = UIColor.lightGrayColor() {
+    @IBInspectable var trackStrokeColor: UIColor = UIColor.darkGrayColor() {
         didSet { setNeedsDisplay() }
     }
 
-    @IBInspectable var progressStrokeColor: UIColor = UIColor.greenColor() {
+    @IBInspectable var progressStrokeColor: UIColor = UIColor.lightGrayColor() {
         didSet { setNeedsDisplay() }
     }
 
